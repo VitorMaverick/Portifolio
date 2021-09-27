@@ -33,7 +33,10 @@ body {
   padding: 64px 14px;
   width:35%;
   align-content: space-around;
-  
+  height: 1200px;
+}
+.sobre {
+  margin: 18px;
 }
 
 .cabecalho {
@@ -139,7 +142,7 @@ body {
   font-size: 18px;
   font-weight: 100;
   line-height: 28px;
-  padding: 18px 5px;
+  padding: 18px 5px 0 5px;
 }
 
 .projetos-item a {
@@ -172,9 +175,12 @@ body {
   animation: colors 7s ease infinite;
 }
 .dark .section {
-  background: linear-gradient(-225deg, #4b0082 0%, #00fa9a 100%);
-  background-size: 300% 300%;
-  animation: colors 7s ease infinite;
+   background: #333439;
+   color: #f6f6f6;
+}
+.dark .section ul{
+   
+   color: #f6f6f6;
 }
 
 .footer {
@@ -190,4 +196,23 @@ body {
 
 ul {
   padding: 0;
+}
+
+blockquote {
+  color: grey;
+  font-size: 12px;
+  margin: 0 2px ;
+}
+.ex-title {
+  margin-bottom: 2px;
+}
+
+.section li{
+  margin-bottom: 2px;
+}
+
+.section blockquote {
+  color: grey;
+  font-size: 14px;
+  margin: 0 2px ;
 }
